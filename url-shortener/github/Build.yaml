@@ -3,11 +3,12 @@ name: Build
 on:
   push:
     branches:
-      - main
+      - url-shortner
 
   pull_request:
     branches:
-      - main
+      - url-shortner
+
 
   workflow_dispatch:
 
